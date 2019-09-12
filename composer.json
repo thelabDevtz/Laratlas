@@ -1,0 +1,14 @@
+{
+    "name": "thelabdevtz/laratlas",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NyirendaJr",
+            "email": "javaxynyirenda@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^4.0"
+    }
+}
