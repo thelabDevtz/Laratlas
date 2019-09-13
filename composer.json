@@ -1,5 +1,5 @@
 {
-    "name": "thelabdevtz/laratlas",
+    "name": "thelabdev/laratlas",
     "license": "MIT",
     "authors": [
         {
@@ -10,5 +10,23 @@
     "require": {},
     "require-dev": {
         "orchestra/testbench": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "thelabdev\\Laratlas\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "thelabdev\\Laratlas\\Tests\\": "tests/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "thelabdev\\Laratlas\\LaratlasServiceProvider"
+            ]
+        }
     }
 }
