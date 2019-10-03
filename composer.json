@@ -1,21 +1,25 @@
 {
     "name": "thelabdev/laratlas",
+    "description": "A Laravel package for generating mostly used data such as regions, districts, wards, streets and service centers  for Tanzania country",
     "license": "MIT",
     "authors": [
         {
-            "name": "NyirendaJr",
+            "name": "Peter Nyirenda John",
             "email": "javaxynyirenda@gmail.com"
         }
     ],
+
     "require": {},
     "require-dev": {
         "orchestra/testbench": "^4.0"
     },
+
     "autoload": {
         "psr-4": {
             "thelabdev\\Laratlas\\": "src/"
         }
     },
+
     "autoload-dev": {
         "psr-4": {
             "thelabdev\\Laratlas\\Tests\\": "tests/"

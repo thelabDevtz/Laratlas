@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4f2fd0ee-b8bd-4c2f-a4ff-c8b1dfc70f14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LaratlasServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/LaratlasServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/laratlas.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/laratlas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/InitialTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/InitialTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +105,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nic_hrms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -133,6 +135,7 @@
       <workItem from="1568265405644" duration="21000" />
       <workItem from="1568334167969" duration="4016000" />
       <workItem from="1568351836905" duration="501000" />
+      <workItem from="1570084208322" duration="2380000" />
     </task>
     <servers />
   </component>
