@@ -20,6 +20,6 @@ class LaratlasServiceProvider extends ServiceProvider
     protected function registerPublishing(){
         $this->publishes([
             __DIR__.'/../config/laratlas.php' => config_path('laratlas.php')
-        ], 'laratlas');
+        ]);
     }
 }
