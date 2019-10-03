@@ -1,14 +1,15 @@
 <?php
 
-
 namespace thelabdev\Laratlas;
 
 use Illuminate\Support\ServiceProvider;
 
 class LaratlasServiceProvider extends ServiceProvider
 {
-    public function boot(){
+    public function boot()
+    {
         $this->registerPublishing();
+        $this->registerResources();
     }
 
 
@@ -17,9 +18,15 @@ class LaratlasServiceProvider extends ServiceProvider
 
     }
 
-    protected function registerPublishing(){
+    protected function registerPublishing()
+    {
         $this->publishes([
-            __DIR__.'/../config/laratlas.php' => config_path('laratlas.php')
-        ]);
+            __DIR__ . '/../config/laratlas.php' => config_path('laratlas.php')
+        ], 'laratlas-config');
+    }
+
+    private function registerResources()
+    {
+        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
     }
 }
