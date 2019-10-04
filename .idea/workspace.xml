@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f2fd0ee-b8bd-4c2f-a4ff-c8b1dfc70f14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/factories/DistrictFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/RegionFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_03_000000_create_districts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_10_03_000000_create_regions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/District.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Region.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/SaveDistrictTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Feature/RunMigrationTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/laratlas.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/laratlas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/DistrictFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/DistrictFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_03_000000_create_districts_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_03_000000_create_regions_table.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LaratlasServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/LaratlasServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/InitialTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/SaveRegionsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Region.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Region.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/SaveDistrictTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/SaveDistrictTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +114,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MTCustomThemeConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -156,7 +153,8 @@
       <workItem from="1568265405644" duration="21000" />
       <workItem from="1568334167969" duration="4016000" />
       <workItem from="1568351836905" duration="501000" />
-      <workItem from="1570084208322" duration="13628000" />
+      <workItem from="1570084208322" duration="14337000" />
+      <workItem from="1570171498044" duration="9024000" />
     </task>
     <servers />
   </component>

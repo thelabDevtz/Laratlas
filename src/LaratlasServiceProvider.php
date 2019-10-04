@@ -23,6 +23,10 @@ class LaratlasServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../config/laratlas.php' => config_path('laratlas.php')
         ], 'laratlas-config');
+
+        $this->publishes([
+            __DIR__ . '/../database/migrations' => database_path('database/migrations')
+        ], 'migrations');
     }
 
     private function registerResources()
