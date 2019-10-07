@@ -1,5 +1,5 @@
 {
-    "name": "thelabdev/laratlas",
+    "name": "thelabDevtz/laratlas",
     "description": "A Laravel package for generating mostly used data such as regions, districts, wards, streets and service centers  for Tanzania country",
     "license": "MIT",
     "authors": [
@@ -16,8 +16,13 @@
 
     "autoload": {
         "psr-4": {
-            "thelabdev\\Laratlas\\": "src/"
-        }
+            "thelabdev\\Laratlas\\": "src/",
+            "thelabdev\\Laratlas\\Database\\Seeds\\": "database/seeds/"
+        },
+        "classmap": [
+            "database",
+            "database/seeds"
+        ]
     },
 
     "autoload-dev": {

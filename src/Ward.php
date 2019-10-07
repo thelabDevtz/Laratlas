@@ -1,10 +1,9 @@
 <?php
 
 namespace thelabdev\Laratlas;
-
 use Illuminate\Database\Eloquent\Model;
 
-class District extends Model
+class Ward extends Model
 {
     protected $guarded = [];
 
@@ -14,13 +13,16 @@ class District extends Model
     |--------------------------------------------------------------------------
     */
 
-    /**get all wards of the Districts*/
-    public function wards(){
-        return $this->hasMany(Ward::class);
+
+    /**
+     * get all streets of the ward
+     */
+    public function streets(){
+        return $this->hasMany(Street::class);
     }
 
-    /** get region belongs to district */
-    public function region(){
-        return $this->belongsTo(Region::class);
+    /** get district belongs to a ward */
+    public function district(){
+        return $this->belongsTo(District::class);
     }
 }
