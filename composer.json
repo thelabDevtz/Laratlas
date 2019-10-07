@@ -1,5 +1,5 @@
 {
-    "name": "thelabDevtz/laratlas",
+    "name": "thelabdev/laratlas",
     "description": "A Laravel package for generating mostly used data such as regions, districts, wards, streets and service centers  for Tanzania country",
     "license": "MIT",
     "authors": [

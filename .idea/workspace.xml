@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f2fd0ee-b8bd-4c2f-a4ff-c8b1dfc70f14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/factories/StreetFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/WardFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/RegionsTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Console/InstallCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Street.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ward.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/RelationshipTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Laratlas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Laratlas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_04_070520_create_laratlas_tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_10_04_070520_create_laratlas_tables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/District.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/District.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LaratlasServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/LaratlasServiceProvider.php" afterDir="false" />
-    </list>
+    <list default="true" id="4f2fd0ee-b8bd-4c2f-a4ff-c8b1dfc70f14" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +155,7 @@
       <workItem from="1568351836905" duration="501000" />
       <workItem from="1570084208322" duration="14337000" />
       <workItem from="1570171498044" duration="12835000" />
-      <workItem from="1570426423962" duration="19146000" />
+      <workItem from="1570426423962" duration="19874000" />
     </task>
     <servers />
   </component>
