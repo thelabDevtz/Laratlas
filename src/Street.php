@@ -1,7 +1,7 @@
 <?php
 
 
-namespace thelabdev\Laratlas;
+namespace Thelabdev\Laratlas;;
 
 
 use Illuminate\Database\Eloquent\Model;
@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 class Street extends Model
 {
     protected $guarded = [];
+    public $timestamps = false;
 
     /*
     |-------------------------------------------------------------------------

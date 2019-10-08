@@ -1,11 +1,12 @@
 <?php
 
-namespace thelabdev\Laratlas;
+namespace Thelabdev\Laratlas;;
 use Illuminate\Database\Eloquent\Model;
 
 class Ward extends Model
 {
     protected $guarded = [];
+    public $timestamps = false;
 
     /*
     |-------------------------------------------------------------------------

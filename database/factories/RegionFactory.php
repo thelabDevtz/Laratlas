@@ -1,6 +1,6 @@
 <?php
 
-use thelabdev\Laratlas\Region;
+use Thelabdev\Laratlas\Region;
 
 $factory->define(Region::class, function (Faker\Generator $faker) {
     return [

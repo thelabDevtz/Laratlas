@@ -47,9 +47,9 @@ class RegionsTableSeeder extends Seeder
             array('id' => '25', 'region_name' => 'Singida'),
             array('id' => '26', 'region_name' => 'Tabora'),
             array('id' => '27', 'region_name' => 'Tanga'),
-            array('id' => '30', 'region_name' => 'Zanzibar Mjini Magharibi'),
-            array('id' => '31', 'region_name' => 'Songwe'),
-            array('id' => '32', 'region_name' => 'Kusini unguja')
+            array('id' => '28', 'region_name' => 'Zanzibar Mjini Magharibi'),
+            array('id' => '29', 'region_name' => 'Songwe'),
+            array('id' => '30', 'region_name' => 'Kusini unguja')
         ));
 
         $this->enableForeignKeys("regions");

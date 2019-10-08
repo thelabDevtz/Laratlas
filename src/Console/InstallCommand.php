@@ -1,9 +1,6 @@
 <?php
 
-
-namespace thelabdev\Laratlas\Console;
-
-
+namespace Thelabdev\Laratlas\Console;
 use Illuminate\Console\Command;
 
 class InstallCommand extends Command
@@ -27,6 +24,6 @@ class InstallCommand extends Command
     public function handle()
     {
         $this->call('migrate');
-        $this->call('db:seed --class=thelabdev/Laratlas/Database/Seeds/DatabaseSeeder');
+        $this->call('db:seed --class=thelabdev\\Laratlas\\Database\\Seeds\\DatabaseSeeder');
     }
 }
