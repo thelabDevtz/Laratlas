@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Thelabdev\Laratlas;;
+namespace Thelabdev\Laratlas\Models;
 
 
 use Illuminate\Database\Eloquent\Model;

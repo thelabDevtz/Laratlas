@@ -11,7 +11,6 @@ class LaratlasServiceProvider extends ServiceProvider
   {
     $this->registerPublishing();
     $this->registerResources();
-    $this->registerCommands();
   }
 
   public function register()
@@ -28,6 +27,10 @@ class LaratlasServiceProvider extends ServiceProvider
     $this->publishes([
       __DIR__ . '/../database/factories' => database_path('factories')
     ], 'laratlas-factories');
+
+    $this->publishes([
+      __DIR__ . '/../database/seeds' => database_path('seeds')
+    ], 'laratlas-seeds');
   }
 
   private function registerResources()
