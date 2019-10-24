@@ -16,9 +16,12 @@ class LaratlasServiceProvider extends ServiceProvider
   public function register()
   {
     // Register the main class to use with the facade
-     $this->app->singleton('laratlas', function () {
-        return new Laratlas;
-     });
+    $this->app->singleton('Laratlas', function ($app) {
+      return new Laratlas;
+    });
+
+     $loader = \Illuminate\Foundation\AliasLoader::getInstance();
+     $loader->alias('Laratlas', Laratlas::class);
   }
 
   protected function registerPublishing()

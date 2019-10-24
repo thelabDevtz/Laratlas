@@ -16,7 +16,7 @@
     ],
 
     "require": {
-      
+
     },
     "require-dev": {
         "orchestra/testbench": "^4.0"
@@ -27,6 +27,9 @@
             "Thelabdev\\Laratlas\\": "src/",
             "Thelabdev\\Laratlas\\Database\\Seeds\\": "database/seeds/"
         },
+        "files": [
+          "src/Helpers/helpers.php"
+        ],
         "classmap": [
             "database",
             "database/seeds"

@@ -9,19 +9,6 @@ use Thelabdev\Laratlas\Ward;
 
 class RelationshipTest extends TestCase
 {
-
-//    public function test_relationship_enabled_successfully(){
-//        $region = factory(Region::class)->create();
-//        $district = factory(District::class)->create();
-//        $ward = factory(Ward::class)->create();
-//        $street = factory(Street::class)->create();
-//
-//        $this->assertEquals(1, Region::all()->count());
-//        $this->assertEquals(1, District::all()->count());
-//        $this->assertEquals(1, Ward::all()->count());
-//        $this->assertEquals(1, Street::all()->count());
-//    }
-
     /** @test */
     public function test_region_has_many_districts()
     {
