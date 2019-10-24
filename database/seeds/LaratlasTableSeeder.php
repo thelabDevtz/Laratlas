@@ -124,8 +124,8 @@ class LaratlasTableSeeder extends Seeder
             array(
               'id'          => 18,
               'region_name' => 'Pemba kaskazini',
-              'latitude'    => -0,0000,
-              'longitude'   => 0.0000
+              'latitude'    => -5.031935,
+              'longitude'   => 39.775557
             ),
             array(
               'id'          => 19,
@@ -184,8 +184,8 @@ class LaratlasTableSeeder extends Seeder
             array(
               'id'          => 28,
               'region_name' => 'Unguja kaskazini',
-              'latitude'    => -6.165193,
-              'longitude'   => 39.198914
+              'latitude'    => -5.939509,
+              'longitude'   => 39.279101
              ),
             array(
               'id'          => 29,
@@ -202,8 +202,8 @@ class LaratlasTableSeeder extends Seeder
             array(
               'id'          => 31,
               'region_name' => 'Unguja Mjini Magharibi',
-              'latitude'    => -6.203656,
-              'longitude'   => 39.362120
+              'latitude'    => -6.229814,
+              'longitude'   => 39.258329
             )
         ));
         $this->enableForeignKeys("regions");

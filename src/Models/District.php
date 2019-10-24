@@ -17,7 +17,7 @@ class District extends Model
 
     /**get all wards of the Districts*/
     public function wards(){
-        return $this->hasMany(Ward::class);
+      return $this->hasMany(Ward::class);
     }
 
     /** get region belongs to district */
