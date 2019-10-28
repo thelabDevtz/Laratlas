@@ -1,6 +1,6 @@
 <?php
 
-namespace Thelabdev\Larastarter;
+namespace Thelabdev\Laratlas\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

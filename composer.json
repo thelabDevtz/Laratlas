@@ -53,10 +53,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Thelabdev\\Laratlas\\LaratlasServiceProvider"
+                "Thelabdev\\Laratlas\\Providers\\LaratlasServiceProvider"
             ],
             "aliases": {
-                "Laratlas": "Thelabdev\\Larastarter\\LarastarterFacade"
+                "Laratlas": "Thelabdev\\Laratlas\\Facades\\LaratlasFacade"
             }
         }
     }

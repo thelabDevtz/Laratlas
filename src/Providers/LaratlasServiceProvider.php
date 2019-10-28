@@ -1,9 +1,10 @@
 <?php
 
-namespace Thelabdev\Laratlas;
+namespace Thelabdev\Laratlas\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Thelabdev\Laratlas\Console\InstallCommand;
+use Thelabdev\Laratlas\Services\Laratlas;
 
 class LaratlasServiceProvider extends ServiceProvider
 {
@@ -16,12 +17,10 @@ class LaratlasServiceProvider extends ServiceProvider
   public function register()
   {
     // Register the main class to use with the facade
-    $this->app->singleton('Laratlas', function ($app) {
-      return new Laratlas;
+    $this->app->singleton('laratlas', function ($app) {
+      return new Laratlas();
     });
 
-     $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-     $loader->alias('Laratlas', Laratlas::class);
   }
 
   protected function registerPublishing()
