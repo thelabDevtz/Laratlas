@@ -16,15 +16,15 @@ class CreateLaratlasTables extends Migration
         Schema::create('regions', function (Blueprint $table) {
             $table->increments('id');
             $table->string('region_name');
-            $table->decimal('latitude', 10, 8);
-            $table->decimal('longitude', 11, 8);
+            $table->decimal('latitude', 10, 8)->nullable();
+            $table->decimal('longitude', 11, 8)->nullable();
         });
 
         Schema::create('districts', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('district_name');
-            $table->decimal('latitude', 10, 8);
-            $table->decimal('longitude', 11, 8);
+            $table->string('name');
+            $table->decimal('latitude', 10, 8)->nullable();
+            $table->decimal('longitude', 11, 8)->nullable();
 
             $table->unsignedInteger('region_id');
             $table->foreign('region_id')->references('id')->on('regions')
@@ -34,8 +34,8 @@ class CreateLaratlasTables extends Migration
         Schema::create('wards', function (Blueprint $table) {
             $table->increments('id');
             $table->string('ward_name');
-            $table->decimal('latitude', 10, 8);
-            $table->decimal('longitude', 11, 8);
+            $table->decimal('latitude', 10, 8)->nullable();
+            $table->decimal('longitude', 11, 8)->nullable();
 
             $table->unsignedInteger('district_id');
             $table->foreign('district_id')->references('id')->on('districts')
@@ -46,8 +46,8 @@ class CreateLaratlasTables extends Migration
         Schema::create('streets', function (Blueprint $table) {
             $table->increments('id');
             $table->string('street_name');
-            $table->decimal('latitude', 10, 8);
-            $table->decimal('longitude', 11, 8);
+            $table->decimal('latitude', 10, 8)->nullable();
+            $table->decimal('longitude', 11, 8)->nullable();
 
 
             $table->unsignedInteger('ward_id');

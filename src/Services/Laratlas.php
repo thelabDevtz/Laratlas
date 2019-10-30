@@ -47,7 +47,7 @@ class Laratlas implements LaratlasInterface
     public function findRegionByName($name = '')
     {
         // TODO: Implement findRegionByName() method.
-        return $this->regionRepository->query()->whereRegionName($name);
+
 
     }
 

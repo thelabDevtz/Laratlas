@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f2fd0ee-b8bd-4c2f-a4ff-c8b1dfc70f14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Contracts/LaratlasInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repositories/BaseRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repositories/Laratlas/RegionRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Traits/LaratlasTrait.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Laratlas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Laratlas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LaratlasFacade.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Facades/LaratlasFacade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LaratlasServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Providers/LaratlasServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_04_070520_create_laratlas_tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_10_04_070520_create_laratlas_tables.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/LaratlasTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/LaratlasTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Providers/LaratlasServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Providers/LaratlasServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/Laratlas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Laratlas.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +106,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laratlas-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../thelabdev" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -180,7 +174,8 @@
       <workItem from="1572159796945" duration="3915000" />
       <workItem from="1572166075665" duration="4639000" />
       <workItem from="1572240254094" duration="396000" />
-      <workItem from="1572288323759" duration="4903000" />
+      <workItem from="1572288323759" duration="5270000" />
+      <workItem from="1572419791607" duration="12410000" />
     </task>
     <servers />
   </component>
