@@ -2,7 +2,7 @@
 
 namespace Thelabdev\Laratlas\Tests;
 
-use Thelabdev\Laratlas\LaratlasServiceProvider;
+use Thelabdev\Laratlas\Providers\LaratlasServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

@@ -4,11 +4,10 @@
 namespace Thelabdev\Laratlas\Repositories\Laratlas;
 
 
-use Thelabdev\Laratlas\Models\Region;
+use Thelabdev\Laratlas\Models\Ward;
 use Thelabdev\Laratlas\Repositories\BaseRepository;
 
-class RegionRepository extends BaseRepository
+class WardRepository extends BaseRepository
 {
-    const MODEL = Region::class;
-
+    const MODEL = Ward::class;
 }
