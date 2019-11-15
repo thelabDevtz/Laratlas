@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f2fd0ee-b8bd-4c2f-a4ff-c8b1dfc70f14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Repositories/Laratlas/DistrictRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repositories/Laratlas/StreetRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repositories/Laratlas/WardRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contracts/LaratlasInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contracts/LaratlasInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Providers/LaratlasServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Providers/LaratlasServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repositories/Laratlas/RegionRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repositories/Laratlas/RegionRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/Laratlas.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/Laratlas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +175,7 @@
       <workItem from="1572288323759" duration="5270000" />
       <workItem from="1572419791607" duration="12410000" />
       <workItem from="1573110777186" duration="3158000" />
-      <workItem from="1573797073122" duration="8030000" />
+      <workItem from="1573797073122" duration="12357000" />
     </task>
     <servers />
   </component>
