@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Thelabdev\Laratlas\Repositories\Laratlas;
-
 
 use Thelabdev\Laratlas\Models\Ward;
 use Thelabdev\Laratlas\Repositories\BaseRepository;

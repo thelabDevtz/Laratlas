@@ -6,8 +6,6 @@ if (!function_exists('laratlas')) {
      */
     function laratlas()
     {
-      return app('laratlas');
+        return app('laratlas');
     }
 }
-
- ?>

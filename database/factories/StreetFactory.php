@@ -1,13 +1,14 @@
 <?php
 
 use Thelabdev\Laratlas\Street;
-$factory->define(Street::class, function (\Faker\Generator $faker){
+
+$factory->define(Street::class, function (\Faker\Generator $faker) {
     return [
         'street_name' => $faker->streetName,
-        'ward_id' => function(){
+        'ward_id'     => function () {
             return \Thelabdev\Laratlas\Ward::all()->random();
         },
-        'latitude' => $faker->latitude,
-        'longitude' => $faker->longitude
+        'latitude'  => $faker->latitude,
+        'longitude' => $faker->longitude,
     ];
 });

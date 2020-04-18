@@ -32,6 +32,7 @@ trait TruncateTable
 
     /**
      * @param $table
+     *
      * @return mixed
      */
     protected function delete($table)

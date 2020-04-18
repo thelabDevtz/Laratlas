@@ -1,6 +1,7 @@
 <?php
 
 namespace Thelabdev\Laratlas\Models;
+
 use Illuminate\Database\Eloquent\Model;
 
 class Ward extends Model
@@ -14,16 +15,17 @@ class Ward extends Model
     |--------------------------------------------------------------------------
     */
 
-
     /**
-     * get all streets of the ward
+     * get all streets of the ward.
      */
-    public function streets(){
+    public function streets()
+    {
         return $this->hasMany(Street::class);
     }
 
     /** get district belongs to a ward */
-    public function district(){
+    public function district()
+    {
         return $this->belongsTo(District::class);
     }
 }

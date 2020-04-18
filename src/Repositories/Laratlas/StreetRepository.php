@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Thelabdev\Laratlas\Repositories\Laratlas;
 
 use Thelabdev\Laratlas\Models\Street;

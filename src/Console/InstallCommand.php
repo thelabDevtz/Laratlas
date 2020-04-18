@@ -1,12 +1,14 @@
 <?php
 
 namespace Thelabdev\Laratlas\Console;
+
 use Illuminate\Console\Command;
 
 class InstallCommand extends Command
 {
     /**
      * The name and signature of the console command.
+     *
      * @var string
      */
     protected $signature = 'laratlas:install';
@@ -16,6 +18,7 @@ class InstallCommand extends Command
      * @var string
      */
     protected $description = 'Run command to migrate and seed the database tables';
+
     /**
      * Execute the console command.
      *

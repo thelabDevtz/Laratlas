@@ -1,12 +1,9 @@
 <?php
 
-
 namespace Thelabdev\Laratlas\Repositories;
 
-
 /**
- * Class BaseRepository
- * @package Thelabdev\Laratlas\Repositories
+ * Class BaseRepository.
  */
 class BaseRepository
 {

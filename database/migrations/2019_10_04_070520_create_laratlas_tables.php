@@ -1,8 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 class CreateLaratlasTables extends Migration
 {
@@ -40,7 +40,6 @@ class CreateLaratlasTables extends Migration
             $table->unsignedInteger('district_id');
             $table->foreign('district_id')->references('id')->on('districts')
                 ->onDelete('cascade');
-
         });
 
         Schema::create('streets', function (Blueprint $table) {
@@ -48,7 +47,6 @@ class CreateLaratlasTables extends Migration
             $table->string('street_name');
             $table->decimal('latitude', 10, 8)->nullable();
             $table->decimal('longitude', 11, 8)->nullable();
-
 
             $table->unsignedInteger('ward_id');
             $table->foreign('ward_id')->references('id')->on('wards')
