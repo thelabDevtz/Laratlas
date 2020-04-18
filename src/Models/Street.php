@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Thelabdev\Laratlas\Models;
-
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -18,8 +16,8 @@ class Street extends Model
     */
 
     /** get ward belongs to street */
-    public function ward(){
+    public function ward()
+    {
         return $this->belongsTo(Ward::class);
     }
-
 }

@@ -14,19 +14,19 @@ trait DisableForeignKeys
      */
     private $commands = [
         'mysql'  => [
-          'enable'  => 'SET FOREIGN_KEY_CHECKS=1;',
-          'disable' => 'SET FOREIGN_KEY_CHECKS=0;',
+            'enable'  => 'SET FOREIGN_KEY_CHECKS=1;',
+            'disable' => 'SET FOREIGN_KEY_CHECKS=0;',
         ],
         'sqlite' => [
-          'enable'  => 'PRAGMA foreign_keys = ON;',
-          'disable' => 'PRAGMA foreign_keys = OFF;',
+            'enable'  => 'PRAGMA foreign_keys = ON;',
+            'disable' => 'PRAGMA foreign_keys = OFF;',
         ],
         'sqlsrv' => [
-            'enable' => 'EXEC sp_msforeachtable @command1="print \'?\'", @command2="ALTER TABLE ? WITH CHECK CHECK CONSTRAINT all";',
+            'enable'  => 'EXEC sp_msforeachtable @command1="print \'?\'", @command2="ALTER TABLE ? WITH CHECK CHECK CONSTRAINT all";',
             'disable' => 'EXEC sp_msforeachtable "ALTER TABLE ? NOCHECK CONSTRAINT all";',
         ],
         'pgsql' => [
-            'enable' => 'SET CONSTRAINTS ALL IMMEDIATE;',
+            'enable'  => 'SET CONSTRAINTS ALL IMMEDIATE;',
             'disable' => 'SET CONSTRAINTS ALL DEFERRED;',
         ],
     ];
@@ -36,12 +36,12 @@ trait DisableForeignKeys
      *
      * @param string $table
      */
-    protected function disableForeignKeys($table = "")
+    protected function disableForeignKeys($table = '')
     {
         $driver = DB::getDriverName();
         switch ($driver) {
-            case "pgsql":
-                DB::statement("ALTER TABLE " . $table . " DISABLE TRIGGER ALL;");
+            case 'pgsql':
+                DB::statement('ALTER TABLE '.$table.' DISABLE TRIGGER ALL;');
                 break;
             default:
                 DB::statement($this->getDisableStatement());
@@ -53,17 +53,16 @@ trait DisableForeignKeys
      *
      * @param string $table
      */
-    protected function enableForeignKeys($table = "")
+    protected function enableForeignKeys($table = '')
     {
         $driver = DB::getDriverName();
         switch ($driver) {
-            case "pgsql":
-                DB::statement("ALTER TABLE " . $table . " ENABLE TRIGGER ALL;");
+            case 'pgsql':
+                DB::statement('ALTER TABLE '.$table.' ENABLE TRIGGER ALL;');
                 break;
             default:
                 DB::statement($this->getEnableStatement());
         }
-
     }
 
     /**

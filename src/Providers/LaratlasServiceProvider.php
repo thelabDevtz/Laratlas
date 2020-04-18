@@ -42,41 +42,40 @@ class LaratlasServiceProvider extends ServiceProvider
         });
 
         //Register Ward repository
-        $this->app->bind('ward_repository', function ($app){
+        $this->app->bind('ward_repository', function ($app) {
             return new WardRepository();
         });
 
         //Register Street repository
-        $this->app->bind('street_repository', function ($app){
+        $this->app->bind('street_repository', function ($app) {
             return new StreetRepository();
         });
-
     }
 
     protected function registerPublishing()
     {
         $this->publishes([
-            __DIR__ . '/../../config/laratlas.php' => config_path('laratlas.php')
+            __DIR__.'/../../config/laratlas.php' => config_path('laratlas.php'),
         ], 'laratlas-config');
 
         $this->publishes([
-            __DIR__ . '/../../database/factories' => database_path('factories')
+            __DIR__.'/../../database/factories' => database_path('factories'),
         ], 'laratlas-factories');
 
         $this->publishes([
-            __DIR__ . '/../../database/seeds' => database_path('seeds')
+            __DIR__.'/../../database/seeds' => database_path('seeds'),
         ], 'laratlas-seeds');
     }
 
     private function registerResources()
     {
-        $this->loadMigrationsFrom(__DIR__ . '/../../database/migrations');
+        $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
     }
 
     private function registerCommands()
     {
         $this->commands([
-            InstallCommand::class
+            InstallCommand::class,
         ]);
     }
 }

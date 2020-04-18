@@ -16,7 +16,7 @@ class Laratlas implements LaratlasInterface
     protected $regionRepository;
 
     /**
-     * @var  DistrictRepository
+     * @var DistrictRepository
      */
     protected $districtRepository;
 
@@ -32,18 +32,18 @@ class Laratlas implements LaratlasInterface
 
     /**
      * Laratlas constructor.
-     * @param RegionRepository $regionRepository
+     *
+     * @param RegionRepository   $regionRepository
      * @param DistrictRepository $districtRepository
-     * @param WardRepository $wardRepository
-     * @param StreetRepository $streetRepository
+     * @param WardRepository     $wardRepository
+     * @param StreetRepository   $streetRepository
      */
     public function __construct(
         RegionRepository $regionRepository,
         DistrictRepository $districtRepository,
         WardRepository $wardRepository,
         StreetRepository $streetRepository
-    )
-    {
+    ) {
         $this->regionRepository = $regionRepository;
         $this->districtRepository = $districtRepository;
         $this->wardRepository = $wardRepository;
@@ -57,11 +57,11 @@ class Laratlas implements LaratlasInterface
     {
         // TODO: Implement getAllRegion() method.
         return $this->regionRepository->getAll();
-
     }
 
     /**
      * @param $regionId
+     *
      * @return mixed
      */
     public function findRegionById($regionId)
@@ -72,17 +72,17 @@ class Laratlas implements LaratlasInterface
 
     /**
      * @param string $name
+     *
      * @return mixed
      */
     public function findRegionByName($name = '')
     {
         // TODO: Implement findRegionByName() method.
-
-
     }
 
     /**
      * @param $regionId
+     *
      * @return mixed
      */
     public function getAllDistrictOfRegion($regionId)
@@ -102,6 +102,7 @@ class Laratlas implements LaratlasInterface
 
     /**
      * @param $districtId
+     *
      * @return mixed
      */
     public function findDistrictById($districtId)
@@ -112,14 +113,13 @@ class Laratlas implements LaratlasInterface
 
     /**
      * @param string $name
+     *
      * @return mixed
      */
     public function findDistrictByName($name = '')
     {
         // TODO: Implement findDistrictByName() method.
-
     }
-
 
     /**
      * @return mixed
@@ -132,6 +132,7 @@ class Laratlas implements LaratlasInterface
 
     /**
      * @param $wardId
+     *
      * @return mixed
      */
     public function findWardById($wardId)
@@ -142,6 +143,7 @@ class Laratlas implements LaratlasInterface
 
     /**
      * @param string $name
+     *
      * @return mixed
      */
     public function findWardByName($name = '')
@@ -151,12 +153,13 @@ class Laratlas implements LaratlasInterface
 
     /**
      * @param $wardId
+     *
      * @return mixed
      */
     public function getAllStreetOfWard($wardId)
     {
         // TODO: Implement getAllStreetOfWard() method.
-        return ($this->wardRepository->find($wardId) == null) ?  'data not found': $this->wardRepository->find($wardId)->streets;
+        return ($this->wardRepository->find($wardId) == null) ? 'data not found' : $this->wardRepository->find($wardId)->streets;
     }
 
     /**
@@ -170,6 +173,7 @@ class Laratlas implements LaratlasInterface
 
     /**
      * @param $streetId
+     *
      * @return mixed
      */
     public function findStreetById($streetId)
@@ -180,6 +184,7 @@ class Laratlas implements LaratlasInterface
 
     /**
      * @param string $name
+     *
      * @return mixed
      */
     public function findStreetByName($name = '')
@@ -189,6 +194,7 @@ class Laratlas implements LaratlasInterface
 
     /**
      * @param $districtId
+     *
      * @return mixed
      */
     public function getAllWardOfDistrict($districtId)
@@ -197,6 +203,3 @@ class Laratlas implements LaratlasInterface
         return $this->districtRepository->find($districtId)->wards;
     }
 }
-
-
-
